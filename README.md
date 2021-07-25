@@ -37,7 +37,7 @@ There's two main files to start from:
 
 Since this project is experimental, we might change things later.
 
-#### We can make stable releases for a commercial customer
+### We can make stable releases for a commercial customer
 
 One stable release is 8000 € + taxes.
 
