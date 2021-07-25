@@ -10,11 +10,13 @@ It's still quite experimental and mostly intended for our internal use in our ga
 
  * [NodeJS v14](https://nodejs.org)
  * [Lodash](https://lodash.com)
- * [WebSocket library `ws`](https://github.com/websockets/ws) -- It's only required for the `DiscordGateway` implementation
+ * [WebSocket library `ws`](https://github.com/websockets/ws) -- It's only required for [the `DiscordGateway` implementation](https://github.com/sendanor/discord/blob/main/src/DiscordGateway.ts)
 
-### Git submodule use
+### We don't have traditional releases
 
-We use it as a git submodule. 
+This project evolves directly to our git repository in an agile software development format.
+
+### We use this library internally as a git submodule
 
 ```
 mkdir -p src/nor
@@ -23,3 +25,21 @@ git config -f .gitmodules submodule.src/nor/discord.branch main
 ```
 
 You may want to do that, too, in order to take full advance of the TypeScript language.
+
+### Documentation
+
+There isn't much, but look at the source code. *It should be quite readable.*
+
+There's two main files to start from:
+
+ * [`DiscordService`](https://github.com/sendanor/discord/blob/main/src/DiscordService.ts) is a simple API for Discord's REST calls
+ * [`DiscordGateway`](https://github.com/sendanor/discord/blob/main/src/DiscordGateway.ts) is a [Discord Gateway](https://discord.com/developers/docs/topics/gateway) implementation
+
+Since this project is experimental, we might change things later.
+
+#### We can make stable releases for a commercial customer
+
+One stable release is 8000 € + taxes.
+
+The payment includes a month of agile development with the customer, and a year of
+support for that release branch.
