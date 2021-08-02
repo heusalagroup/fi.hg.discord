@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isBoolean} from "../nor/ts/modules/lodash";
+import {isBoolean} from "../../../ts/modules/lodash";
 
 import {DiscordGatewayOp} from "./DiscordGatewayOp";
 import {DiscordGatewayOpDTO} from "./DiscordGatewayOpDTO";

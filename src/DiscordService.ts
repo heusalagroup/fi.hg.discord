@@ -1,9 +1,9 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import RequestClient from "./nor/ts/RequestClient";
-import Json from "./nor/ts/Json";
-import LogService from "./nor/ts/LogService";
-import Observer, {ObserverCallback, ObserverDestructor} from "./nor/ts/Observer";
+import RequestClient from "../../ts/RequestClient";
+import Json from "../../ts/Json";
+import LogService from "../../ts/LogService";
+import Observer, {ObserverCallback, ObserverDestructor} from "../../ts/Observer";
 
 import {DiscordApplicationDTO, isDiscordApplicationDTO} from "./types/DiscordApplicationDTO";
 import {DiscordCreateMessageDTO} from "./types/DiscordCreateMessageDTO";

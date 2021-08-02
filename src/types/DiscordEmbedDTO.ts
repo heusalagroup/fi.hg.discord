@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isNumberOrUndefined, isStringOrUndefined} from "../nor/ts/modules/lodash";
+import {isNumberOrUndefined, isStringOrUndefined} from "../../../ts/modules/lodash";
 
 import {DiscordAuthorDTO, isDiscordAuthorDTO} from "./DiscordAuthorDTO";
 import {DiscordEmbedType, isDiscordEmbedType} from "./DiscordEmbedType";

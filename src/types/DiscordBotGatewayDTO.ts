@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isNumber, isString} from "../nor/ts/modules/lodash";
+import {isNumber, isString} from "../../../ts/modules/lodash";
 import {DiscordSessionStartLimitDTO, isDiscordSessionStartLimitDTO} from "./DiscordSessionStartLimitDTO";
 
 export interface DiscordBotGatewayDTO {

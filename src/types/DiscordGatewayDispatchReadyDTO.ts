@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isArray, isNumber, every, isString} from "../nor/ts/modules/lodash";
+import {isArray, isNumber, every, isString} from "../../../ts/modules/lodash";
 
 import {DiscordGatewayOp} from "./DiscordGatewayOp";
 import {DiscordGatewayOpDTO} from "./DiscordGatewayOpDTO";
