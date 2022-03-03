@@ -2,9 +2,9 @@
 
 import WebSocket from "ws";
 
-import Observer, {ObserverCallback, ObserverDestructor} from "../../ts/Observer";
-import LogService from "../../ts/LogService";
-import {map} from "../../ts/modules/lodash";
+import Observer, {ObserverCallback, ObserverDestructor} from "../../core/Observer";
+import LogService from "../../core/LogService";
+import {map} from "../../core/modules/lodash";
 
 import {DiscordService} from "./DiscordService";
 

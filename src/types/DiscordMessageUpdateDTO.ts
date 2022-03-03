@@ -6,7 +6,7 @@ import {
     isBooleanOrUndefined,
     isString,
     isStringOrUndefined
-} from "../../../ts/modules/lodash";
+} from "../../../core/modules/lodash";
 
 import {DiscordUserDTO, isDiscordUserDTO} from "./DiscordUserDTO";
 import {DiscordEmbedDTO, isDiscordEmbedDTO} from "./DiscordEmbedDTO";

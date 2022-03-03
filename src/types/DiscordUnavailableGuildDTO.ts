@@ -5,7 +5,7 @@ import {
     isNumberOrUndefined,
     isString,
     isStringOrUndefined
-} from "../../../ts/modules/lodash";
+} from "../../../core/modules/lodash";
 
 export interface DiscordUnavailableGuildDTO {
 

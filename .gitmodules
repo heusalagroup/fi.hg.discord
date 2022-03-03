@@ -1,4 +1,4 @@
-[submodule "src/nor/ts"]
-	path = src/nor/ts
-	url = git@github.com:sendanor/typescript.git
+[submodule "src/hg/core"]
+	path = src/hg/core
+	url = git@github.com:heusalagroup/fi.hg.core.git
 	branch = main

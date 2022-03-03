@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isNumber} from "../../../ts/modules/lodash";
+import {isNumber} from "../../../core/modules/lodash";
 
 import {DiscordGatewayOp} from "./DiscordGatewayOp";
 import {DiscordGatewayOpDTO} from "./DiscordGatewayOpDTO";

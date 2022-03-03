@@ -74,7 +74,7 @@
     "src"
   ],
   "exclude": [
-    "src/nor/ts/Repository.ts",
-    "src/nor/ts/repository"
+    "src/hg/core/Repository.ts",
+    "src/hg/core/repository"
   ]
 }

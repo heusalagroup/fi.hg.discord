@@ -4,7 +4,7 @@ import {
     isBooleanOrUndefined,
     isString,
     isStringOrUndefined
-} from "../../../ts/modules/lodash";
+} from "../../../core/modules/lodash";
 
 export interface DiscordUserDTO {
 
