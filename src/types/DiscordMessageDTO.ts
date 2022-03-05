@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {every, isArray, isBoolean, isString} from "../../../core/modules/lodash";
+import {every, isArray, isBoolean, isString} from "../hg/core/modules/lodash";
 import {DiscordUserDTO, isDiscordUserDTO} from "./DiscordUserDTO";
 import {DiscordEmbedDTO, isDiscordEmbedDTO} from "./DiscordEmbedDTO";
 

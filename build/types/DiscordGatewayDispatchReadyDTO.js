@@ -2,7 +2,7 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isDiscordGatewayDispatchReadyDTO = exports.isDiscordGatewayDispatchReadyPayload = void 0;
-var lodash_1 = require("../nor/ts/modules/lodash");
+var lodash_1 = require("../hg/core/modules/lodash");
 var DiscordGatewayOp_1 = require("./DiscordGatewayOp");
 var DiscordGatewayEvent_1 = require("./DiscordGatewayEvent");
 var DiscordUserDTO_1 = require("./DiscordUserDTO");

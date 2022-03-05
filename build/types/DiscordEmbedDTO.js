@@ -2,7 +2,7 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isDiscordEmbedDTO = void 0;
-var lodash_1 = require("../nor/ts/modules/lodash");
+var lodash_1 = require("../hg/core/modules/lodash");
 var DiscordAuthorDTO_1 = require("./DiscordAuthorDTO");
 var DiscordEmbedType_1 = require("./DiscordEmbedType");
 function isDiscordEmbedDTO(value) {

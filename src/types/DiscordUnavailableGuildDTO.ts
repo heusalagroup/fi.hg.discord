@@ -5,7 +5,7 @@ import {
     isNumberOrUndefined,
     isString,
     isStringOrUndefined
-} from "../../../core/modules/lodash";
+} from "../hg/core/modules/lodash";
 
 export interface DiscordUnavailableGuildDTO {
 

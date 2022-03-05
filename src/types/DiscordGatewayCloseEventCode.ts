@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isNumber} from "../../../core/modules/lodash";
+import {isNumber} from "../hg/core/modules/lodash";
 
 export enum DiscordGatewayCloseEventCode {
 

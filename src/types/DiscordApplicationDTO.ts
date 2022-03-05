@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isBoolean, isString, isStringOrUndefined} from "../../../core/modules/lodash";
+import {isBoolean, isString, isStringOrUndefined} from "../hg/core/modules/lodash";
 
 /**
  * For now, this DTO has only been partially described here.

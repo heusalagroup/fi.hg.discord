@@ -2,7 +2,7 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isDiscordBotGatewayDTO = void 0;
-var lodash_1 = require("../nor/ts/modules/lodash");
+var lodash_1 = require("../hg/core/modules/lodash");
 var DiscordSessionStartLimitDTO_1 = require("./DiscordSessionStartLimitDTO");
 function isDiscordBotGatewayDTO(value) {
     return (!!value

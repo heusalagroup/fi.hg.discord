@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isStringOrUndefined} from "../../../core/modules/lodash";
+import {isStringOrUndefined} from "../hg/core/modules/lodash";
 
 export interface DiscordAuthorDTO {
 

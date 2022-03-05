@@ -42,9 +42,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DiscordGateway = exports.DiscordGatewayEvent = void 0;
 var ws_1 = __importDefault(require("ws"));
-var Observer_1 = __importDefault(require("./nor/ts/Observer"));
-var LogService_1 = __importDefault(require("./nor/ts/LogService"));
-var lodash_1 = require("./nor/ts/modules/lodash");
+var Observer_1 = __importDefault(require("../../core/Observer"));
+var LogService_1 = __importDefault(require("../../core/LogService"));
+var lodash_1 = require("../../core/modules/lodash");
 var DiscordService_1 = require("./DiscordService");
 var DiscordGatewayState_1 = require("./types/DiscordGatewayState");
 var DiscordGatewayOpHelloDTO_1 = require("./types/DiscordGatewayOpHelloDTO");

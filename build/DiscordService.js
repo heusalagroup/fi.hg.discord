@@ -52,9 +52,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DiscordService = exports.DiscordBotServiceEvent = void 0;
-var RequestClient_1 = __importDefault(require("./nor/ts/RequestClient"));
-var LogService_1 = __importDefault(require("./nor/ts/LogService"));
-var Observer_1 = __importDefault(require("./nor/ts/Observer"));
+var RequestClient_1 = __importDefault(require("../../core/RequestClient"));
+var LogService_1 = __importDefault(require("../../core/LogService"));
+var Observer_1 = __importDefault(require("../../core/Observer"));
 var DiscordApplicationDTO_1 = require("./types/DiscordApplicationDTO");
 var DiscordMessageDTO_1 = require("./types/DiscordMessageDTO");
 var DiscordBotGatewayDTO_1 = require("./types/DiscordBotGatewayDTO");
