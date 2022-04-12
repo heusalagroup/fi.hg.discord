@@ -4,8 +4,6 @@ Lightweight Discord API and Gateway Library for TypeScript and NodeJS.
 
 It's still quite experimental and mostly intended for our internal use in our gateway product.
 
-### It's MIT licenced
-
 ### It doesn't have many runtime dependencies
 
  * [NodeJS v14](https://nodejs.org)
@@ -43,3 +41,7 @@ One stable release is 8000 € + taxes.
 
 The payment includes a month of agile development with the customer, and a year of
 support for that release branch.
+
+### License
+
+Copyright (c) Heusala Group. All rights reserved. Licensed under the MIT License (the "[License](./LICENSE)");
