@@ -1,6 +1,7 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isNumber, isString} from "../hg/core/modules/lodash";
+import { isNumber } from "../../../core/types/Number";
+import { isString } from "../../../core/types/String";
 
 import {DiscordGatewayOp} from "./DiscordGatewayOp";
 import {DiscordGatewayOpDTO} from "./DiscordGatewayOpDTO";

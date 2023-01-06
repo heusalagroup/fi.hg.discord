@@ -1,9 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {
-    isString,
-    isStringOrUndefined
-} from "../hg/core/modules/lodash";
+import { isString, isStringOrUndefined } from "../../../core/types/String";
 
 export interface DiscordMessageDeleteDTO {
 

@@ -1,6 +1,7 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isNumber, isString} from "../hg/core/modules/lodash";
+import { isString } from "../../../core/types/String";
+import { isNumber } from "../../../core/types/Number";
 import {DiscordSessionStartLimitDTO, isDiscordSessionStartLimitDTO} from "./DiscordSessionStartLimitDTO";
 
 export interface DiscordBotGatewayDTO {

@@ -1,6 +1,9 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {isArray, isNumber, every, isString} from "../hg/core/modules/lodash";
+import { isArray } from "../../../core/types/Array";
+import { isNumber } from "../../../core/types/Number";
+import { every } from "../../../core/functions/every";
+import { isString } from "../../../core/types/String";
 
 import {DiscordGatewayOp} from "./DiscordGatewayOp";
 import {DiscordGatewayOpDTO} from "./DiscordGatewayOpDTO";

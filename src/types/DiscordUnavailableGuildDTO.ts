@@ -1,11 +1,8 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import {
-    isBoolean,
-    isNumberOrUndefined,
-    isString,
-    isStringOrUndefined
-} from "../hg/core/modules/lodash";
+import { isBoolean } from "../../../core/types/Boolean";
+import { isNumberOrUndefined } from "../../../core/types/Number";
+import { isString, isStringOrUndefined } from "../../../core/types/String";
 
 export interface DiscordUnavailableGuildDTO {
 

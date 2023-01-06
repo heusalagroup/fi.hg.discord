@@ -4,7 +4,7 @@ import WebSocket from "ws";
 
 import Observer, {ObserverCallback, ObserverDestructor} from "../../core/Observer";
 import LogService from "../../core/LogService";
-import {map} from "../../core/modules/lodash";
+import { map } from "../../core/functions/map";
 
 import {DiscordService} from "./DiscordService";
 
