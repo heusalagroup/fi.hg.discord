@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import { isNumber } from "../hg/core/functions/isNumber";
+import { isNumber } from "../../../core/types/Number";
 
 export interface DiscordSessionStartLimitDTO {
 

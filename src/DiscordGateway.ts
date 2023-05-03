@@ -2,8 +2,7 @@
 
 import WebSocket from "ws";
 
-import Observer, {ObserverCallback, ObserverDestructor} from "../../core/Observer";
-import LogService from "../../core/LogService";
+import {Observer, ObserverCallback, ObserverDestructor} from "../../core/Observer";
 import { map } from "../../core/functions/map";
 
 import {DiscordService} from "./DiscordService";
@@ -34,6 +33,7 @@ import {DiscordMessageDTO} from "./types/DiscordMessageDTO";
 import {DiscordMessageUpdateDTO} from "./types/DiscordMessageUpdateDTO";
 import {DiscordMessageDeleteDTO} from "./types/DiscordMessageDeleteDTO";
 import {DiscordMessageDeleteBulkDTO} from "./types/DiscordMessageDeleteBulkDTO";
+import { LogService } from "../../core/LogService";
 
 const LOG = LogService.createLogger('DiscordGateway');
 

@@ -1,6 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import { isStringOrUndefined } from "../hg/core/functions/isStringOrUndefined";
+import { isStringOrUndefined } from "../../../core/types/String";
 
 export interface DiscordAuthorDTO {
 

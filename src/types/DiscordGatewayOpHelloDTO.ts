@@ -1,9 +1,8 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import { isNumber } from "../hg/core/functions/isNumber";
-
 import {DiscordGatewayOp} from "./DiscordGatewayOp";
 import {DiscordGatewayOpDTO} from "./DiscordGatewayOpDTO";
+import { isNumber } from "../../../core/types/Number";
 
 export interface DiscordGatewayOpHelloPayload {
     readonly heartbeat_interval: number;

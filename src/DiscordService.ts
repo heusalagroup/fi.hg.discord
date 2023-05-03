@@ -1,9 +1,6 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import RequestClient from "../../core/RequestClient";
-import Json from "../../core/Json";
-import LogService from "../../core/LogService";
-import Observer, {ObserverCallback, ObserverDestructor} from "../../core/Observer";
+import {Observer, ObserverCallback, ObserverDestructor} from "../../core/Observer";
 
 import {DiscordApplicationDTO, isDiscordApplicationDTO} from "./types/DiscordApplicationDTO";
 import {DiscordCreateMessageDTO} from "./types/DiscordCreateMessageDTO";
@@ -11,6 +8,9 @@ import {DiscordMessageDTO, isDiscordMessageDTO} from "./types/DiscordMessageDTO"
 import {DiscordBotGatewayDTO, isDiscordBotGatewayDTO} from "./types/DiscordBotGatewayDTO";
 
 import {DISCORD_API_ENDPOINT, LIBRARY_NAME, LIBRARY_URL, LIBRARY_VERSION} from "./discord-constants";
+import { LogService } from "../../core/LogService";
+import { RequestClient } from "../../core/RequestClient";
+import { JsonAny } from "../../core/Json";
 
 const LOG = LogService.createLogger('DiscordService');
 
@@ -99,7 +99,7 @@ export class DiscordService {
 
         return await RequestClient.patchJson(
             `${DISCORD_API_ENDPOINT}/guilds/${guildId}/members/@me/nick`,
-            payload as Json,
+            payload as JsonAny,
             DiscordService.generateBotHeadersObject(botToken)
         ).then((response: any) => {
         });
@@ -141,7 +141,7 @@ export class DiscordService {
 
         return await RequestClient.postJson(
             `${DISCORD_API_ENDPOINT}/channels/${channelId}/messages`,
-            payload as Json,
+            payload as JsonAny,
             DiscordService.generateBotHeadersObject(botToken)
         ).then((response: any) => {
 

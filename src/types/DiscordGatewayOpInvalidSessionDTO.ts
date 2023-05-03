@@ -1,9 +1,8 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import { isBoolean } from "../hg/core/functions/isBoolean";
-
 import {DiscordGatewayOp} from "./DiscordGatewayOp";
 import {DiscordGatewayOpDTO} from "./DiscordGatewayOpDTO";
+import { isBoolean } from "../../../core/types/Boolean";
 
 export interface DiscordGatewayOpInvalidSessionDTO extends DiscordGatewayOpDTO<boolean> {
 

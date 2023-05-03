@@ -1,9 +1,8 @@
 // Copyright (c) 2021 Sendanor. All rights reserved.
 
-import { isNumber } from "../hg/core/functions/isNumber";
-
 import {DiscordGatewayOpDTO} from "./DiscordGatewayOpDTO";
 import {DiscordGatewayOp} from "./DiscordGatewayOp";
+import { isNumber } from "../../../core/types/Number";
 
 export interface DiscordGatewayHeartbeatDTO extends DiscordGatewayOpDTO<number|null> {
 
