@@ -9,7 +9,7 @@ import {DiscordBotGatewayDTO, isDiscordBotGatewayDTO} from "./types/DiscordBotGa
 
 import {DISCORD_API_ENDPOINT, LIBRARY_NAME, LIBRARY_URL, LIBRARY_VERSION} from "./discord-constants";
 import { LogService } from "../../core/LogService";
-import { RequestClient } from "../../core/RequestClient";
+import { RequestClientImpl } from "../../core/RequestClientImpl";
 import { JsonAny } from "../../core/Json";
 
 const LOG = LogService.createLogger('DiscordService');
@@ -75,7 +75,7 @@ export class DiscordService {
 
     public static async getMe (botToken: string) : Promise<DiscordApplicationDTO> {
 
-        return await RequestClient.getJson(
+        return await RequestClientImpl.getJson(
             `${DISCORD_API_ENDPOINT}/oauth2/applications/@me`,
             DiscordService.generateBotHeadersObject(botToken)
         ).then((response: any) => {
@@ -97,7 +97,7 @@ export class DiscordService {
             nick : newNick
         };
 
-        return await RequestClient.patchJson(
+        return await RequestClientImpl.patchJson(
             `${DISCORD_API_ENDPOINT}/guilds/${guildId}/members/@me/nick`,
             payload as JsonAny,
             DiscordService.generateBotHeadersObject(botToken)
@@ -121,7 +121,7 @@ export class DiscordService {
 
     public static async getDiscordBotGatewayDTO (botToken: string) : Promise<DiscordBotGatewayDTO> {
 
-        return await RequestClient.getJson(
+        return await RequestClientImpl.getJson(
             `${DISCORD_API_ENDPOINT}/gateway/bot`,
             DiscordService.generateBotHeadersObject(botToken)
         ).then((response: any) => {
@@ -139,7 +139,7 @@ export class DiscordService {
 
     public static async createMessage (botToken: string, channelId : string, payload: DiscordCreateMessageDTO) : Promise<DiscordMessageDTO> {
 
-        return await RequestClient.postJson(
+        return await RequestClientImpl.postJson(
             `${DISCORD_API_ENDPOINT}/channels/${channelId}/messages`,
             payload as JsonAny,
             DiscordService.generateBotHeadersObject(botToken)
