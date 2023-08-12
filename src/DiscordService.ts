@@ -101,7 +101,8 @@ export class DiscordService {
             `${DISCORD_API_ENDPOINT}/guilds/${guildId}/members/@me/nick`,
             payload as JsonAny,
             DiscordService.generateBotHeadersObject(botToken)
-        ).then((response: any) => {
+        ).then((
+            /*response: any*/) : void => {
         });
 
     }
